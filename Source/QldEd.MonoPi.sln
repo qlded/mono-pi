@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QldEd.MonoPi", "QldEd.MonoPi\QldEd.MonoPi.csproj", "{876BCB15-77D5-4FD8-8218-1470AEBE6739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QldEd.MonoPi.Tests", "QldEd.MonoPi.Tests\QldEd.MonoPi.Tests.csproj", "{F8E5C33C-1D21-426B-ADA9-326338A9665E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QldEd.MonoPi.Demo", "QldEd.MonoPi.Demo\QldEd.MonoPi.Demo.csproj", "{E5F1BD07-684D-474E-99F9-3B6959AC887C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{876BCB15-77D5-4FD8-8218-1470AEBE6739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876BCB15-77D5-4FD8-8218-1470AEBE6739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876BCB15-77D5-4FD8-8218-1470AEBE6739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876BCB15-77D5-4FD8-8218-1470AEBE6739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E5C33C-1D21-426B-ADA9-326338A9665E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E5C33C-1D21-426B-ADA9-326338A9665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E5C33C-1D21-426B-ADA9-326338A9665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E5C33C-1D21-426B-ADA9-326338A9665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F1BD07-684D-474E-99F9-3B6959AC887C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F1BD07-684D-474E-99F9-3B6959AC887C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F1BD07-684D-474E-99F9-3B6959AC887C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F1BD07-684D-474E-99F9-3B6959AC887C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
