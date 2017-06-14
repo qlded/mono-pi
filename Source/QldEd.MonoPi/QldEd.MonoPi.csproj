@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GPIO\PinExtensions.cs" />
+    <Compile Include="GPIO\Pinouts\BananaPiPins.cs" />
+    <Compile Include="GPIO\Pinouts\Pi1Pins.cs" />
+    <Compile Include="GPIO\Pinouts\Pi2Pins.cs" />
+    <Compile Include="GPIO\Pinouts\Pi3Pins.cs" />
+    <Compile Include="GPIO\PreparePin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

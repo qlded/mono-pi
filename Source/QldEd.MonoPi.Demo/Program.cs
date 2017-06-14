@@ -1,16 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading;
+using QldEd.MonoPi.GPIO;
+using QldEd.MonoPi.GPIO.Pinouts;
 
 namespace QldEd.MonoPi.Demo
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.ReadKey();
+            // get a GPIO pin ready for output
+            var pin = Pi3Pins.Gpio17.Prepare().AsOutput();
+            
+            // toggle the pin on and off, e.g. flash an led
+            for (var i = 0; i < 100; i++)
+            {
+                pin.Toggle();
+                Thread.Sleep(500);
+            }
         }
     }
 }
