@@ -33,7 +33,7 @@ namespace QldEd.MonoPi.Demo
             shiftRegisters.AutoCommit = false; // disabled AutoCommit to set multiple values at once
             shiftRegisters[8] = true; // Pin 15 on the second chip
             shiftRegisters[16] = true; // Pin 15 on the third chip
-            shiftRegisters.Commit(); // turns on both pins simulatniously
+            shiftRegisters.Commit(); // turns on both pins simultaneously
 
             shiftRegisters.Clear();
         }
