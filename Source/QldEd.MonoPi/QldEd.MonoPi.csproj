@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GPIO\Helpers\ShiftRegister.cs" />
     <Compile Include="GPIO\PinExtensions.cs" />
     <Compile Include="GPIO\Pinouts\BananaPiPins.cs" />
     <Compile Include="GPIO\Pinouts\Pi1Pins.cs" />
