@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QldEd.MonoPi.Tests", "QldEd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QldEd.MonoPi.Demo", "QldEd.MonoPi.Demo\QldEd.MonoPi.Demo.csproj", "{E5F1BD07-684D-474E-99F9-3B6959AC887C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACCDCA5E-985C-4C0C-9BC8-CBDFE2F45251}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
