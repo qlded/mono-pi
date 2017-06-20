@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Threading;
+﻿using System.Threading;
 using QldEd.MonoPi.GPIO;
 using QldEd.MonoPi.GPIO.Helpers;
 using QldEd.MonoPi.GPIO.Pinouts;
